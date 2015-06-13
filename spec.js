@@ -1,7 +1,7 @@
 var assert = require('assert');
 var extend = require('object-assign');
 
-var Inflector = require('./');
+var Inflector = require('./').Inflector;
 var inflect   = Inflector.inflections();
 
 var TestCases = require('./test/cases');

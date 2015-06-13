@@ -1,11 +1,12 @@
 {
-  "name": "inflected",
-  "version": "1.1.6",
-  "description": "A port of ActiveSupport's inflector to Node.js",
+  "name": "inflected-nougatized",
+  "version": "0.0.5",
+  "private": true,
+  "description": "A port of ActiveSupport's inflector to Node.js and GoogleAppsScript",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinandert/inflected.git"
+    "url": "https://github.com/unau/inflected-nougatized.git"
   },
   "keywords": [
     "inflector",
@@ -23,15 +24,15 @@
     "transliterate",
     "activesupport"
   ],
-  "author": {
-    "name": "Martin Andert",
-    "email": "mandert@gmail.com"
-  },
+  "author": "Takeyuki Kojima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/martinandert/inflected/issues"
+    "url": "https://github.com/unau/inflected-nougatized/issues"
   },
-  "homepage": "https://github.com/martinandert/inflected",
+  "homepage": "https://github.com/unau/inflected-nougatized",
+  "dependencies": {
+    "nougat": "~0.0.1"
+  },  
   "devDependencies": {
     "jshint": "^2.5.10",
     "mocha": "^2.0.1",
