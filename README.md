@@ -1,6 +1,6 @@
 # inflected-nougatized
 
-A port of ActiveSupport's inflector to Node.js and GoogleAppsSCript.
+A port of ActiveSupport's inflector to Node.js and GoogleAppsScript.
 
 
 ## Installation
