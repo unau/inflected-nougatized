@@ -1,4 +1,4 @@
-# inflected
+# inflected-nougatized
 
 A port of ActiveSupport's inflector to Node.js.
 
@@ -8,7 +8,7 @@ A port of ActiveSupport's inflector to Node.js.
 Install via npm:
 
 ```bash
-% npm install inflected
+% npm install inflected-nougatized
 ```
 
 
@@ -17,7 +17,7 @@ Install via npm:
 The module exports an object with several utility functions.
 
 ```js
-var Inflector = require('inflected');
+var Inflector = require('inflected').Inflector;
 
 Inflector.pluralize('Category')  // => 'Categories'
 ```
