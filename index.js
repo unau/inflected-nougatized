@@ -1,7 +1,6 @@
-(typeof nougat !== 'undefined'  ? nougat : require('nougat')).$(
-  typeof global !== 'undefined' ? global : this,
-  typeof module !== 'undefined' ? module : null,
-  function(global, nougat) {
-    "use strict";
-    return { Inflector: global.Inflector || require('./lib/Inflector') };
+(this.UiApp ? nougat : require('nougat')).$(
+  this.UiApp ? {g: this} : {g: global, m: module},
+  function(glace) {
+    'use strict';
+    return { Inflector: glace.require('./lib/Inflector') };
   });
